@@ -1,20 +1,12 @@
 {
-    "footer": {
-        "menu-home": "Inicio"
+    "header": {
+        "home": "Inicio",
+        "about": "Acerca",
+        "terms": "Términos"
     },
-    "Menu About": {
-        "menu-about": "Acerca"
-    },
-    "Términos": {
-        "menu-terms": "Términos"
-    },
-    "Ingls": {
-        "language-english": "Inglés"
-    },
-    "Spanish": {
-        "language-spanish": "Español"
-    },
-    "Japanese": {
-        "language-japanese": "Japonés"
+    "language": {
+        "english": "Inglés",
+        "spanish": "Español",
+        "japanese": "Japonés"
     }
 }
