@@ -5,10 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { CabeceraComponent } from './componentes/cabecera/cabecera.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { InicioComponent } from './paginas/inicio/inicio.component';
+import { AcercaComponent } from './paginas/acerca/acerca.component';
+import { TerminosComponent } from './paginas/terminos/terminos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CabeceraComponent,
+    FooterComponent,
+    InicioComponent,
+    AcercaComponent,
+    TerminosComponent
   ],
   imports: [
     BrowserModule,
