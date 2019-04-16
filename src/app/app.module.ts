@@ -14,6 +14,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { InicioComponent } from './paginas/inicio/inicio.component';
 import { AcercaComponent } from './paginas/acerca/acerca.component';
 import { TerminosComponent } from './paginas/terminos/terminos.component';
+import { ElegirIdiomaComponent } from './componentes/elegir-idioma/elegir-idioma.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TerminosComponent } from './paginas/terminos/terminos.component';
     FooterComponent,
     InicioComponent,
     AcercaComponent,
-    TerminosComponent
+    TerminosComponent,
+    ElegirIdiomaComponent
   ],
   imports: [
     BrowserModule,
