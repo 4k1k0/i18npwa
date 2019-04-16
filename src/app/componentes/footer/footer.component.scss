@@ -1,0 +1,19 @@
+footer {
+  background: black;
+  color: white;
+  nav {
+    li {
+      display: inline-block;
+      width: 33.333%;
+      text-align: center;
+      a {
+        display: block;
+        color: white;
+        padding: 1rem 0;
+      }
+    }
+  }
+  p {
+    text-align: center;
+  }
+}
