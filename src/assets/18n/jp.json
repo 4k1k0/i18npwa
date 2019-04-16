@@ -1,0 +1,20 @@
+{
+    "footer": {
+        "menu-home": "内"
+    },
+    "Menu About": {
+        "menu-about": "凡そ"
+    },
+    "Términos": {
+        "menu-terms": "間柄"
+    },
+    "Ingls": {
+        "language-english": "英語"
+    },
+    "Spanish": {
+        "language-spanish": "西語"
+    },
+    "Japanese": {
+        "language-japanese": "日本語"
+    }
+}

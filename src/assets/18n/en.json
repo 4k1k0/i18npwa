@@ -1,0 +1,20 @@
+{
+    "footer": {
+        "menu-home": "Home"
+    },
+    "Menu About": {
+        "menu-about": "About"
+    },
+    "Términos": {
+        "menu-terms": "Terms"
+    },
+    "Ingls": {
+        "language-english": "English"
+    },
+    "Spanish": {
+        "language-spanish": "Spanish"
+    },
+    "Japanese": {
+        "language-japanese": "Japanese"
+    }
+}
