@@ -8,5 +8,13 @@
         "english": "英語",
         "spanish": "西語",
         "japanese": "日本語"
+    },
+    "login": {
+        "user": "利用者",
+        "password": "暗号",
+        "login": "ログイン"
+    },
+    "error-404": {
+        "message": "申し訳ありません"
     }
 }

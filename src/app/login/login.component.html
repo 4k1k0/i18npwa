@@ -2,10 +2,10 @@
   <div id="contenido">
     <div id="caja">
       <form>
-        <input type="text" class="form-control" placeholder="Usuario">
-        <input type="password" class="form-control" placeholder="Contraseña">
+        <input type="text" class="form-control" placeholder="{{ 'login.user' | translate }}">
+        <input type="password" class="form-control" placeholder="{{ 'login.password' | translate }}">
         <button type="button" class="btn btn-block btn-info">
-          Iniciar sesión
+            {{ 'login.login' | translate }}
         </button>
       </form>
     </div>
