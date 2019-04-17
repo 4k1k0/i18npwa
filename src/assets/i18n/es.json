@@ -8,5 +8,13 @@
         "english": "Inglés",
         "spanish": "Español",
         "japanese": "Japonés"
+    },
+    "login": {
+        "user": "Usuario",
+        "password": "Contraseña",
+        "login": "Iniciar sesión"
+    },
+    "error-404": {
+        "message": "Lo sentimos"
     }
 }

@@ -8,5 +8,13 @@
         "english": "English",
         "spanish": "Spanish",
         "japanese": "Japanese"
+    },
+    "login": {
+        "user": "User",
+        "password": "Password",
+        "login": "Login"
+    },
+    "error-404": {
+        "message": "We sorry"
     }
 }

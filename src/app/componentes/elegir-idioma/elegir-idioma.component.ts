@@ -8,19 +8,25 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class ElegirIdiomaComponent implements OnInit {
 
-  idioma = 'en';
+  idioma: string;
 
   constructor(
     private translate: TranslateService
   ) {}
 
   ngOnInit() {
+    if ( localStorage.getItem('language') ) {
+      this.idioma = localStorage.getItem('language');
+    }
   }
 
   setIdioma( idioma: string ) {
-    if ( this.idioma === idioma ) return;
+    if ( this.idioma === idioma ) {
+      return;
+    }
     this.idioma = idioma;
     this.translate.use(idioma);
+    localStorage.setItem('language', idioma);
   }
 
 }
