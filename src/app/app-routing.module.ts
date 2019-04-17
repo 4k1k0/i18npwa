@@ -1,21 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { InicioComponent } from './paginas/inicio/inicio.component';
-import { AcercaComponent } from './paginas/acerca/acerca.component';
-import { TerminosComponent } from './paginas/terminos/terminos.component';
+import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: InicioComponent
+    loadChildren: './paginas/paginas.module#PaginasModule'
   },
   {
-    path: 'acerca',
-    component: AcercaComponent
+    path: 'login',
+    loadChildren: './login/login.module#LoginModule'
   },
   {
-    path: 'terminos',
-    component: TerminosComponent
+    path: '**',
+    component: ErrorComponent
   }
 ];
 
