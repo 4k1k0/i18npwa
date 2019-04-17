@@ -12,12 +12,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { environment } from '../environments/environment';
 
-import { CabeceraComponent } from './componentes/cabecera/cabecera.component';
-import { FooterComponent } from './componentes/footer/footer.component';
-import { InicioComponent } from './paginas/inicio/inicio.component';
-import { AcercaComponent } from './paginas/acerca/acerca.component';
-import { TerminosComponent } from './paginas/terminos/terminos.component';
-import { ElegirIdiomaComponent } from './componentes/elegir-idioma/elegir-idioma.component';
+import { ErrorComponent } from './error/error.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -27,12 +22,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    CabeceraComponent,
-    FooterComponent,
-    InicioComponent,
-    AcercaComponent,
-    TerminosComponent,
-    ElegirIdiomaComponent
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
