@@ -4,7 +4,7 @@
       <form>
         <input type="text" class="form-control" placeholder="{{ 'login.user' | translate }}">
         <input type="password" class="form-control" placeholder="{{ 'login.password' | translate }}">
-        <button type="button" class="btn btn-block btn-info">
+        <button type="button" class="btn btn-block btn-info" (click)="login()">
             {{ 'login.login' | translate }}
         </button>
       </form>
